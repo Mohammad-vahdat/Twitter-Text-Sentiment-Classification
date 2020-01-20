@@ -1,11 +1,6 @@
 # Twitter Sentiment Classification
 This project is created as part of the Machine Learning course [CS-433] at EPFL. We developed a tweet sentiment classfication using some state-of-the-art Neural Network models.
 
-## crowdAI last submission
-- ID: 30300
-- Username: fereshte
-- Time: Tue, 17 Dec 2019, 17:37:16
-
 ## Used Libraries
 ```
 - Python 3.6.5
@@ -48,6 +43,6 @@ For this classification project, we have implemented 3 neural network models:
 - GRU 
 
 ## Authors
-- Fereshte Mozafari   			fereshte.mozafari@epfl.ch
 - Mohammad Vahdat    			mohammad.vahdat@epfl.ch
+- Fereshte Mozafari   			fereshte.mozafari@epfl.ch
 - Ehsan Mohammadpour  			ehsan.mohammadpour@epfl.ch

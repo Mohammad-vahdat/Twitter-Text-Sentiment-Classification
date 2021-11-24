@@ -25,15 +25,18 @@ The dataset is available from "https://nlp.stanford.edu/projects/glove/" page. D
 To run for every data and model. First, locate datasets in data folder. You can use train_predict.py to extract your own results. Next, specify {full, glove_dimension, max_words, model_name} parameters and then execute "python train_predict.py". Final results will be saved in results directory.
 
 ## Folder structure of project
-.
 ├── data                   # This folder includes twitter datasets and glove dataset
 
 ├── data_preprocessing     # Functions for reading data, preprocessing, generating data from glove embedding matrix, and loading data
 
 ├── generated_parameters   # This folder includes generated checkpoints from training of models
+
 ├── models                 # This folder includes the implementation of neural network models + RLR and SVM models as baseline
+
 ├── paths                  # json file to specify relative paths
+
 ├── results                # This folder consists of .csv result file for submitting to crowdAI
+
 ├── README.md              # README file
 ├── run.py                 # Script for running the best model and creating result file
 └── train_predict.py       # This file generate and load data, train the desired model, and finally generate prediction for test data

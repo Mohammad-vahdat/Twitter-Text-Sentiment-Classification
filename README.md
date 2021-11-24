@@ -27,7 +27,9 @@ To run for every data and model. First, locate datasets in data folder. You can 
 ## Folder structure of project
 .
 ├── data                   # This folder includes twitter datasets and glove dataset
+
 ├── data_preprocessing     # Functions for reading data, preprocessing, generating data from glove embedding matrix, and loading data
+
 ├── generated_parameters   # This folder includes generated checkpoints from training of models
 ├── models                 # This folder includes the implementation of neural network models + RLR and SVM models as baseline
 ├── paths                  # json file to specify relative paths

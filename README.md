@@ -38,7 +38,9 @@ To run for every data and model. First, locate datasets in data folder. You can 
 ├── results                # This folder consists of .csv result file for submitting to crowdAI
 
 ├── README.md              # README file
+
 ├── run.py                 # Script for running the best model and creating result file
+
 └── train_predict.py       # This file generate and load data, train the desired model, and finally generate prediction for test data
 
 ## Training models

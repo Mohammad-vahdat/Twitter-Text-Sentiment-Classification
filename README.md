@@ -1,5 +1,11 @@
 # Twitter Sentiment Classification
-This project is created as part of the Machine Learning course [CS-433] at EPFL. We developed a tweet sentiment classfication using some state-of-the-art Neural Network models.
+Messages on social networks include many information about people’s opinion and feelings. So, developing tools for automatic sentiment classification of these messages seems to be attractive.
+In this project, we focused on Twitter messages.
+The goal is to predict whether a tweet is expressing a positive or negative feeling; therefore, it is categorized as the binary classification problems.
+We implement neural networks and deep learning architectures (Using TensorFlow). 
+![image](https://user-images.githubusercontent.com/57172944/168263516-8e92cc9b-9932-4630-8b51-a2bf3b4de96a.png)
+
+
 
 ## Used Libraries
 ```
